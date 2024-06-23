@@ -1,0 +1,423 @@
+*{
+	margin:0;
+	padding:0;
+}
+.parent{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+.message{
+	width:100%;
+	height:600px;
+	padding:100px 50px;
+	margin-left:50px;
+	margin-right:50px;
+}
+.message p{
+	padding:50px 100px 0px;
+}
+.message h2,p{
+	font-family:'water brush', cursive;
+}
+.message h4{
+	padding-top:50px;
+}
+.logo{
+	font-family:'water brush','lucida calligraphy',cursive;
+	font-size:15px;
+	font-style:italic;
+	font-weight:5px;
+	margin-top:10px;
+	padding:0px 10px;
+}
+.navbar{
+	width:100%;
+	height:80px;
+	display:flex;
+	background-color:#EDEBD7;
+	position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.link{
+	justify-content:center;
+	align-items:center;
+}
+.link ul{
+	display:flex;
+	margin-left:150px;
+}
+.link ul li{
+	list-style-type:none;
+	padding:30px;
+}
+.link ul li a{
+	text-decoration:none;
+	padding:10px;
+	background-color:beige;
+	color:#E3B23C;
+}
+.link ul li a:hover{
+	background-color:#6E675F;
+}
+.banner{
+	width:100%;
+	height:500px;
+	display:flex;
+	justify-content:space-around;
+	background-color:beige;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+#pix img{
+	width:700px;
+	height:500px;
+}
+.intro{
+	width:100%;
+	height:520px;
+	display:flex;
+	background-color:beige;
+}
+.intro img{
+	width:600px;
+	height:500px;
+	padding-top:10px;
+	padding-right:15px;
+}
+.intro #duct{
+	padding:20px 100px;
+}
+.intro #duct h3{
+	padding:20px;
+}
+.intro button{
+	padding:10px;
+	margin-left:120px;
+	margin-top:0px;
+	margin-bottom:20px;
+	padding-bottom:10px;
+	background-color:lightblue;
+	color:white;
+}
+#duct h2,h1{
+	font-family:'water brush','lucida calligraphy',cursive;
+}
+#duct p{
+	font-family:arial,verdana.sans-serif;
+	font-style:italic;
+	font-size:17px;
+}
+#duct h3{
+	color:lightblue;
+}
+
+.help{
+	width:100%;
+	height:200px;
+}
+.picture{
+	width:100%;
+	height:300px;
+}
+.side_message{
+	margin:50px;
+}
+.side_message p{
+	padding-top:30px;
+	font-family:arial,verdana,sans-serif;
+	font-style:italic;
+}
+.side_message h3{
+	padding-top:50px;
+	font-family:'water brush', 'lucida calligraphy',cursive;
+	color:lightblue;
+}
+.side_message h4{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.side_message input{
+	padding:10px;
+}
+.side_message button a{
+	text-decoration:none;
+	padding:20px
+}
+.side_message button{
+	padding:10px;
+	background-color:lightblue;
+}
+.help{
+	height:400px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	column-gap:30px;
+	background-color:#122C34;
+}
+.help div{
+	width:200px;
+	height:50px;
+	padding:20px 20px 200px;
+}
+.help .skill{
+	padding-top:150px;
+	font-family:'water brush',cursive;
+}
+.skill p,h3{
+	color:#fff;
+}
+.skill1{
+	background-color:#B5A886;
+}
+.skill1 p{
+	font-family:'water brush', cursive;
+	padding-bottom:20px;
+}
+.skill1 h3{
+	font-family:arial, sans-serif;
+}
+.skill1 button{
+	padding:10px;
+	margin:20px;
+	background-color:lightblue;
+}
+.skill1 button a{
+	padding:20px 10px;
+	margin:20px;
+	text-decoration:none;
+}
+.skill2{
+	background-color:#FEE1C7;
+}
+.skill2 h3{
+	font-family:arial, sans-serif;
+}
+.skill2 button{
+	padding:10px;
+	margin:5px;
+	background-color:lightblue;
+}
+.skill2 button a{
+	padding:20px 10px;
+	margin:20px;
+	text-decoration:none;
+}
+.skill2 p{
+	font-family:'water brush', cursive;
+	padding-bottom:20px;
+}
+.skill3{
+	background-color:#FA7E61;
+}
+.skill3 h3{
+	font-family:arial, sans-serif;
+}
+.skill3 button{
+	padding:10px;
+	margin:5px;
+	background-color:lightblue;
+}
+.skill3 button a{
+	padding:20px 10px;
+	margin:20px;
+	text-decoration:none;
+}
+.skill3 p{
+	font-family:'water brush', cursive;
+	padding-bottom:20px;
+}
+.skill4{
+	background-color:#F44174;
+}
+.skill4 h3{
+	font-family:arial, sans-serif;
+}
+.skill4 button{
+	padding:10px;
+	margin:5px;
+	background-color:lightblue;
+}
+.skill4 button a{
+	padding:20px 10px 10px;
+	margin:20px;
+	text-decoration:none;
+}
+.skill4 p{
+	font-family:'water brush', cursive;
+	padding-bottom:0px;
+}
+.picture{
+	width:100%;
+	height:520px;
+	justify-content:space-around;
+	align-items:row;
+	background-color:#274156;
+}
+.picture img{
+	width:30%;
+	height:90%;
+	margin:20px;
+}
+.who{
+	width:100%;
+	height:200px;
+	text-align:center;
+	padding:50px 0px;
+	background-color:#274156;
+}
+.who h2{
+	font-family:'water brush','lucida calligraphy', cursive;
+}
+.who p{
+	font-family:arial,verdana,sans-serif;
+	padding:20px;
+}
+.footer{
+	width:100%;
+	height:90px;
+	background-color:#000;
+	color:#fff;
+	padding:50px 0px 50px 20px;
+}
+.footer img{
+	width:20px;
+	height:20px;
+}
+.footer div p{
+	font-family:'water brush',cursive;
+}
+@media screen and (max-width:480px){
+	.navbar{
+	position: fixed;
+    top: 0;
+    z-index: 1000;
+   }
+   .link{
+	flex-direction:row;
+	padding-left:0px;
+   }
+.link ul{
+	padding:0px;
+	margin:0px;
+	justify-content:space-between;
+}
+.link ul li{
+	padding-left:0px;
+}
+	.banner{
+		flex-direction:column;
+	}
+	.intro{
+		width:480px;
+		flex-direction:column;
+		padding-top:450px;
+		padding-right:250px;
+		padding-bottom:400px;
+	}
+	#duct2{
+		width:480px;
+		padding-right:200px;
+	}
+	.help{
+		width:480px;
+		padding-top:700px;
+		flex-direction:column;
+		padding-right:270px;
+	}
+	.skill #think{
+		padding-top:200px;
+		padding-right:270px;
+	}
+	.skill div{
+		padding-bottom:50px;
+		padding-top:50px;
+		padding-right:270px;
+	}
+	.picture{
+		padding-top:550px;
+		flex-direction:column;
+		padding-right:270px;
+	}
+	.picture img{
+		height:400px;
+		width:480px;
+		padding-right:270px;
+	}
+	.who{
+		padding-top:820px;
+		padding-right:270px;
+	}
+}
+@media screen and (min-width:480px) and (max-width:768px){
+	.navbar{
+	position: fixed;
+    top: 0;
+    z-index: 1000;
+   }
+   .link{
+	flex-direction:row;
+	padding-left:0px;
+   }
+.link ul{
+	padding:0px;
+	margin:0px;
+	justify-content:space-between;
+}
+.link ul li{
+	padding-left:0px;
+}
+	.banner{
+		flex-direction:column;
+	}
+	.intro{
+		width:480px;
+		flex-direction:column;
+		padding-top:450px;
+		padding-right:250px;
+		padding-bottom:400px;
+	}
+	.intro button{
+		padding-right:20px;
+	}
+	#duct2{
+		width:480px;
+		padding-right:200px;
+	}
+	.help{
+		width:480px;
+		padding-top:800px;
+		flex-direction:column;
+		padding-right:270px;
+	}
+	.skill #think{
+		padding-top:80px;
+		padding-right:270px;
+	}
+	.skill div{
+		padding-bottom:50px;
+		padding-top:150px;
+		padding-right:270px;
+	}
+	.picture{
+		padding-top:550px;
+		flex-direction:column;
+		padding-right:270px;
+	}
+	.picture img{
+		height:400px;
+		width:480px;
+		padding-right:270px;
+	}
+	.who{
+		padding-top:820px;
+		padding-right:270px;
+	}
+	.footer{
+		width:580px;
+	}
+}
+
